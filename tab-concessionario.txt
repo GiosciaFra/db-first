@@ -1,0 +1,19 @@
+Tabella : Concessionaria Auto Usate
+
+id: SMALLINT, PK
+targa: VARCHAR(15), UNIQUE
+brand: VARCHAR(25), NOT NULL
+modello: VARCHAR(25), NOT NULL
+anno_immatricolazione: YEAR, NOT NULL
+km_percorsi: SMALL, NOT NULL
+N°_porte: TINYINT, NOT NULL
+N°_posti: TINYINT, NOT NULL
+trazione: VARCHAR(10), NULL
+interni: VARCHAR(10), NULL
+colore: VARCHAR(15), NOT NULL
+prezzo: FLOAT(7, 2), NOT NULL
+cilindrata: TINYINT, NOT NULL
+cavalli: TINYINT, NOT NULL
+alimentazione_auto: VARCHAR(10), NOT NULL
+cambio: VARCHAR(10), NOT NULL
+optional: TEXT, NULL
